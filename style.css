@@ -41,8 +41,21 @@ header .container{
 
 .section{
     padding: 0 15px;
+    margin-top: 200px;
 }
- 
+
+.col_4{
+    width: 33.33%;
+}
+
+.col_8{
+    width: 66.66%;
+}
+
+.col_12{
+    width: 100%;
+}
+
 
 /* MENU */
 
@@ -73,6 +86,7 @@ header .col-sx li, header .col-dx li{
 }
 
 /* MAIN */
+/* section1 */
 
 main .container{
     max-width: 100%;
@@ -86,29 +100,17 @@ main .row{
     margin: 10px 100px;
 }
 
-main .row h1{
+#section1 h1{
     font-size: 70px;
 }
 
-main .row p:first-child{
+#section1 .row p:first-child{
     width: 350px;
     height: 125px;
     margin-top: 30px;
 }
 
-.col_4{
-    width: 33.33%;
-}
-
-.col_8{
-    width: 66.66%;
-}
-
-.col_12{
-    width: 100%;
-}
-
-main .col_4 a{
+#section1 .col_4 a{
     width: 210px;
     margin-bottom: 15px;
 }
@@ -122,6 +124,105 @@ main .col_4 a{
     margin-left: 30px;
     transform: translateY(35px);
 }
+
+/* section2 */
+
+#section2 .col_12 .titolo_section2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#section2{
+    padding: 0 150px;
+}
+
+#section2 .col_12 span{
+    margin-right: 10px;
+}
+
+#section2 .col_4{
+    margin: 30px 20px 30px 0;
+    width: 400px;
+}
+
+#section2 .col_4 .body_card{
+    height: 800px;
+}
+
+#section2 .col_12 .body_card{
+    height: 200px;
+    margin-bottom: 300px;
+}
+
+#section2 .col_12{
+    width: 1240px;
+}
+
+#section2 .col_4 p::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 1px solid lightgray;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.card4_txt{
+    color: black;
+}
+
+.card4_txt h4{
+    padding: 20px 0;
+}
+
+.titolo_card{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 18px;
+    border: 1px solid lightgray;
+}
+
+.body_card{
+    border: 1px solid lightgray;
+    padding: 40px 45px;
+}
+
+.body_card h4{
+    margin: 10px 0;
+}
+
+.body_card span{
+    color: grey;
+}
+
+.body_card ul{
+    margin-top: 30px;
+}
+
+.body_card ul li{
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.body_card p a{
+    text-decoration: underline;
+    color: #0061FF;   
+}
+
+.body_card p{
+    margin: 20px 0;
+}
+
+.lista_body_card li{
+    font-size: 10px;
+}
+
+.lista_body_card li i{
+    color: #0061FF;
+}
+
+
+
 
  /* BOTTONI */
 
