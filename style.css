@@ -40,8 +40,8 @@ header .container{
 }
 
 .section{
-    padding: 0 15px;
     margin-top: 200px;
+    padding: 0 150px;
 }
 
 .col_4{
@@ -54,6 +54,10 @@ header .container{
 
 .col_12{
     width: 100%;
+}
+
+.col_6{
+    width: 50%;
 }
 
 
@@ -132,10 +136,6 @@ main .row{
     margin-bottom: 40px;
 }
 
-#section2{
-    padding: 0 150px;
-}
-
 #section2 .col_12 span{
     margin-right: 10px;
 }
@@ -151,7 +151,7 @@ main .row{
 
 #section2 .col_12 .body_card{
     height: 200px;
-    margin-bottom: 300px;
+    margin-bottom: 80px;
 }
 
 #section2 .col_12{
@@ -173,6 +173,15 @@ main .row{
 
 .card4_txt h4{
     padding: 20px 0;
+}
+
+.card4_txt h1{
+    display: inline-block;
+}
+
+.card4_txt a{
+    width: 300px;
+    float: right;
 }
 
 .titolo_card{
@@ -223,6 +232,31 @@ main .row{
 
 
 
+/* section3 */
+
+#section3 .col_6 h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#section3 .col_6 p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#section3 .col_6 a{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    line-height: 40px;
+   margin-top: 30px;
+}
+
+#section3 .col_6:last-child{
+    padding-left: 50px;
+    padding-top: 30px;
+}
 
  /* BOTTONI */
 
@@ -236,7 +270,13 @@ main .row{
     color: white; 
 }
 
-
+.button_white{
+    text-align: center;
+    padding: 0 20px; 
+    display: block;
+    background-color: white;
+    color: black; 
+}
 
 
 
