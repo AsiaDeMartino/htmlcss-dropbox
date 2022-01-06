@@ -230,8 +230,6 @@ main .row{
     color: #0061FF;
 }
 
-
-
 /* section3 */
 
 #section3 .col_6 h1{
@@ -257,6 +255,37 @@ main .row{
     padding-left: 50px;
     padding-top: 30px;
 }
+
+#section3{
+    margin-bottom: 80px;
+}
+
+/* section4 */
+
+#section4 .col_12 h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+#section4 .col_4 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#section4 .col_4 p{
+    font-size: 18px;
+}
+
+#section4 .col_4{
+    margin: 0 20px 100px 0;
+    width: 400px;
+}
+
+#section4{
+    margin-bottom: 100px;
+}
+
 
  /* BOTTONI */
 
