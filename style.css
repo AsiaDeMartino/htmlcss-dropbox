@@ -22,6 +22,12 @@ img {
     clear: both;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: currentColor;
@@ -40,8 +46,12 @@ header .container{
 }
 
 .section{
-    margin-top: 200px;
     padding: 0 150px;
+    margin: 10px 100px;
+}
+
+.col_3{
+    width: calc(100%/3);
 }
 
 .col_4{
@@ -60,6 +70,9 @@ header .container{
     width: 50%;
 }
 
+#fr{
+    float: right;
+}
 
 /* MENU */
 
@@ -100,10 +113,6 @@ main .container{
     height: 750px;
 }
 
-main .row{
-    margin: 10px 100px;
-}
-
 #section1 h1{
     font-size: 70px;
 }
@@ -134,6 +143,7 @@ main .row{
 #section2 .col_12 .titolo_section2{
     font-size: 40px;
     margin-bottom: 40px;
+    margin-top: 200px;
 }
 
 #section2 .col_12 span{
@@ -284,6 +294,169 @@ main .row{
 
 #section4{
     margin-bottom: 100px;
+}
+
+/* section5 */
+
+#section5 .col_12 h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#section5 .row:nth-child(1) .col_12{
+    margin-left: 250px;
+}
+
+#section5 .col_12 .scopri{
+    font-size: 18px;
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+#section5 .col_12:first-child{
+    width: 500px;
+}
+
+#section5 .col_3{
+    height: 400px;
+    width: 400px;
+    font-size: 0;
+}
+
+#section5 .row:nth-child(2){
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(245,245,245);
+}
+
+#loghi{
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    fill: white;
+}
+
+#section5 .designit{
+    background-color: rgb(172,209,160);
+    border: 5px solid rgb(213,232,207);
+}
+
+#section5 .img1{
+    display: inline-block;
+}
+
+#section5 .arizona{
+    background-color: rgb(89,19,43);
+    padding: 50px;
+}
+
+#section5 .img2{
+    float: right;
+}
+
+#section5 .florida{
+    background-color: rgb(62,146,201);
+}
+
+#section5 .img3{
+    display: inline-block;
+}
+
+#section5 .topps{
+    background-color: rgb(235,59,47);
+}
+
+#section5 .img4{
+    float: right;
+}
+
+#section5 .col_6{
+    display: inline-block;
+    height: 400px;
+    padding: 20px 50px;
+}
+
+#section5 .col_6 .designit_titolo{
+    height: 100px;
+    width: 200px;
+}
+
+.trattino::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 1px solid lightgray;
+    width: 40px;
+    margin-top: 10px;
+}
+
+#section5 .row p:first-of-type{
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+#section5 .bicycle{
+    background-color: rgb(196,41,43);
+}
+
+#section5 .img5{
+    float: left;
+}
+
+#section5 .heart{
+    background-color: rgb(165,198,225);
+    padding: 40px;
+}
+
+#section5 .img6{
+    display: inline-block;
+}
+
+#section5 .planet{
+    background-color: rgb(12,20,110);
+    padding: 40px;
+}
+
+#section5 .img7{
+    float: left;
+}
+
+#section5 .channel{
+    background-color: rgb(254,209,37);
+    padding: 40px;
+}
+
+#section5 .img8{
+    display: inline-block;
+}
+
+#section5 .row:nth-child(3) .col_12 h1{
+    color: rgb(78,0,32);
+    display: inline-block;
+    font-size: 40px;
+    width: 500px;
+}
+
+#section5 .row:nth-child(3) .col_12{
+    background-color: rgb(165,198,225);
+    width: 100%;
+    height: 300px;
+    padding: 90px;
+}
+
+#section5 .row:nth-child(3) .col_12 a{
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+#section5{
+    margin-bottom: 100px;
+    padding: 0;
 }
 
 
