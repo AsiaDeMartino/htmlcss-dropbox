@@ -435,6 +435,7 @@ main .container{
     display: inline-block;
     font-size: 40px;
     width: 500px;
+    margin-left: 150px;
 }
 
 #section5 .row:nth-child(3) .col_12{
@@ -458,6 +459,33 @@ main .container{
     margin-bottom: 100px;
     padding: 0;
 }
+
+/* section6 */
+
+#section6 .trattino::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 1px solid lightgray;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#section6 p{
+    font-weight: bold;
+    display: inline-block;
+}
+
+#section6 i{
+    float: right;
+}
+
+#section6{
+    margin-bottom: 200px;
+}
+
+/* footer */
 
 
  /* BOTTONI */
