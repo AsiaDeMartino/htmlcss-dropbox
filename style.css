@@ -482,10 +482,55 @@ main .container{
 }
 
 #section6{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 /* footer */
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+.footer_link{
+    padding-left: 150px;
+    display: inline-block;
+}
+
+.footer_link ul{
+    list-style-type: none;
+}
+
+.footer_link ul li{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+footer .container{
+    padding-top: 100px;
+}
+
+.footer_link h2{
+    margin-bottom: 20px;
+}
+
+footer .trattino::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 1px solid white;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+footer .lingua{
+    margin-left: 150px;
+    color: lightgray;
+    margin-top: 50px;
+}
 
 
  /* BOTTONI */
