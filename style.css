@@ -155,8 +155,8 @@ main .container{
 }
 
 #section2 .col_4{
-    margin: 30px 20px 30px 0;
-    width: 400px;
+    padding: 30px 20px 30px 0;
+
 }
 
 #section2 .col_4 .body_card{
@@ -169,7 +169,12 @@ main .container{
 }
 
 #section2 .col_12{
-    width: 1240px;
+    width: 100%;
+
+}
+
+#section2 .col_4:nth-child(3n){
+    padding-right: 0;
 }
 
 #section2 .col_4 p::after{
@@ -292,8 +297,8 @@ main .container{
 }
 
 #section4 .col_4{
-    margin: 0 20px 100px 0;
-    width: 400px;
+    padding: 0 20px 100px 0;
+    
 }
 
 #section4{
@@ -322,8 +327,7 @@ main .container{
 }
 
 #section5 .col_3{
-    height: 400px;
-    width: 400px;
+    width: 25%;
     font-size: 0;
 }
 
@@ -334,49 +338,50 @@ main .container{
 }
 
 #loghi{
-    padding: 30px;
-    height: 200px;
-    width: 200px;
     fill: white;
-}
-
-#section5 .designit{
-    background-color: rgb(172,209,160);
-    border: 5px solid rgb(213,232,207);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
 }
 
 #section5 .img1{
     display: inline-block;
-}
-
-#section5 .arizona{
-    background-color: rgb(89,19,43);
-    padding: 50px;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(172,209,160);
+    border: 5px solid rgb(213,232,207);
+    position: relative;
 }
 
 #section5 .img2{
     float: right;
-}
-
-#section5 .florida{
-    background-color: rgb(62,146,201);
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(89,19,43);
 }
 
 #section5 .img3{
     display: inline-block;
-}
-
-#section5 .topps{
-    background-color: rgb(235,59,47);
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(62,146,201);
 }
 
 #section5 .img4{
     float: right;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(235,59,47);
 }
 
 #section5 .col_6{
     display: inline-block;
     height: 400px;
+    width: 50%;
     padding: 20px 50px;
 }
 
@@ -399,39 +404,36 @@ main .container{
     margin-top: 50px;
 }
 
-#section5 .bicycle{
-    background-color: rgb(196,41,43);
-}
-
 #section5 .img5{
-    float: left;
-}
-
-#section5 .heart{
-    background-color: rgb(165,198,225);
-    padding: 40px;
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(196,41,43);;
+    position: relative;
 }
 
 #section5 .img6{
-    display: inline-block;
-}
-
-#section5 .planet{
-    background-color: rgb(12,20,110);
-    padding: 40px;
+    float: right;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(165,198,225);
 }
 
 #section5 .img7{
-    float: left;
-}
-
-#section5 .channel{
-    background-color: rgb(254,209,37);
-    padding: 40px;
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(12,20,110);
 }
 
 #section5 .img8{
-    display: inline-block;
+    float: right;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    background-color: rgb(254,209,37);
 }
 
 #section5 .row:nth-child(3) .col_12 h1{
